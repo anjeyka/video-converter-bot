@@ -1,4 +1,5 @@
 Telegram Video Converter Userbot
+
 A lightweight and fully automated Telegram userbot that converts all videos sent to a specific group into MP4 format using FFmpeg.
 The bot listens for new messages, queues incoming videos, converts them with predefined parameters (width, CRF), and sends the processed file back to the chat.
 This project is ideal for optimizing videos for mobile devices, reducing file size, or ensuring consistent playback compatibility across Telegram clients.
@@ -28,11 +29,11 @@ Make sure FFmpeg is installed:
 sudo apt-get install ffmpeg
 
 Configure config.env file with:
-# 🔐 Telegram Client ID
-# can be obtained here: https://my.telegram.org/apps
+🔐 Telegram Client ID
+can be obtained here: https://my.telegram.org/apps
 API_ID=your_api_id
 API_HASH=your_api_hash
-# Group ID (Run the /setup_4phone command in the group for automatic setup)
+Group ID (Run the /setup_4phone command in the group for automatic setup)
 GROUP_ID=0
 
 
